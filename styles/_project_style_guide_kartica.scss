@@ -1,0 +1,68 @@
+.project-style-guide {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background: white;
+    padding: 16px;
+    border: 8px solid black;
+    border-bottom: 8px double black;
+    border-top: 8px double black;
+}
+.project-style-guide-title {
+    margin-bottom: 8px;
+}
+.project-style-guide-description {
+    margin-bottom: 8px;
+}
+
+.project-style-guide-link {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700; 
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 12px 16px;
+}
+
+.project-style-guide-link:hover {
+    text-decoration: underline;
+}
+
+.project-style-guide-technology-list {
+    margin: 0px;
+    padding: 0px;
+}
+.project-style-guide-technology-list li {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 4px 8px;
+    color: #666;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* (KOMBINATOR + )SELEKTIRAMO SVAKI LIST ITEM KOJI JE DESNO OD LIST ITEMA KOJI PRIPADA TOJ LISTI -> nije dobra logika ako se prelamaju list itemi
+
+.project-style-guide-technology-list li + li {
+    margin-left: 8px;
+} */
+
+
+/* ZADNJI CHILD LISTE NEMA MARGINU DESNO */
+.project-style-guide-technology-list li:last-child {
+    margin-right: 0px;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem ;
+    padding: 12px 16px;
+}

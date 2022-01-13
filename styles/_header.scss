@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row nowrap;
+}
+
+.header-image{
+    /* sa flex-grow i flex-shrink 0 nam se slika neće ni povećavati niti smanjivati s povećanjem ili smanjenjem ekrana nego će zadržati dimenzije koje su mu propisane sadržajem*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.header-description {
+    padding-top: 0px;
+    margin-top: 0px;
+    flex-grow: 1;
+    margin-left: 48px;
+}
